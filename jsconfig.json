@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/constants/*": ["constants/*"],
+      "@/*": ["components/*"],
+      "~/*": ["/*"],
+    }
+  },
+  "exclude": [
+    "**/node_modules/*",
+    "**/test/*",
+    "**/.vscode/*",
+    "**/.next/*",
+    "**/.git/*",
+    "**/.firebase/*",
+    "**/out/*",
+    "**/tempData/*",
+  ]
+}

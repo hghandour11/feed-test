@@ -1,0 +1,12 @@
+/* Import tailwind base */
+@import "tailwindcss/base";
+/* Import fonts */
+@import "font-face/space-grotesk.css";
+@import "font-face/inter.css";
+/**
+* Base.
+*/
+@import "reset.css";
+@import "box-sizing.css";
+@import "vars.css";
+@import "global.css";
